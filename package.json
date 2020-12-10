@@ -1,0 +1,18 @@
+{
+  "name": "postapi",
+  "version": "1.0.0",
+  "description": "\"\"\u001b[Dapp using mongo \"\u001b[D\u001b[D & express\"",
+  "main": "server.js",
+  "scripts": {
+    "prod": "node server",
+    "watch": "nodemon server --ignore public/",
+    "start": "npm run watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"\"\u001b[DMichael\"",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
